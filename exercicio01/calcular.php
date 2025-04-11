@@ -17,7 +17,7 @@
     {
         $cem -= 100;
         $i++;
-    }   while ($cem > 100);
+    }   while ($cem >= 100);
 
     echo "R$ 100,00: ".$i;
 
@@ -28,7 +28,7 @@
     {
         $cin -= 50;
         $i++;
-    }   while ($cin > 50);
+    }   while ($cin >= 50);
 
     echo "<br>R$ 50,00: ".$i;
 
@@ -39,7 +39,7 @@
     {
         $vin -= 20;
         $i++;
-    }   while ($vin > 20);
+    }   while ($vin >= 20);
 
     echo "<br>R$ 20,00: ".$i;
 
@@ -50,7 +50,7 @@
     {
         $dez -= 10;
         $i++;
-    }   while ($dez > 10);
+    }   while ($dez >= 10);
 
     echo "<br>R$ 10,00: ".$i;
     
@@ -61,7 +61,7 @@
     {
         $cinco -= 5;
         $i++;
-    }   while ($cinco > 5);
+    }   while ($cinco >= 5);
 
     echo "<br>R$ 5,00: ".$i;
 
@@ -72,7 +72,7 @@
     {
         $dos -= 2;
         $i++;
-    }   while ($dos > 2);
+    }   while ($dos >= 2);
 
     echo "<br>R$ 2,00: ".$i;
 
